@@ -1,6 +1,6 @@
 function DownloadFile(fileName) {
     //Set the File URL.
-    var url = "./../Resume/" + fileName;
+    var url = "./../Resume" + fileName;
 
     //Create XMLHTTP Request.
     var req = new XMLHttpRequest();
