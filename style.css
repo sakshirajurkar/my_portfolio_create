@@ -472,17 +472,63 @@ section{
 .credits span{
     color: var(--green);
 }
+.about .progress{
+    margin-top : 100px;
+}
+.services{
+    margin-top : 100px;
+}
+.home {
+    margin-bottom:50px;
+    
+    
+}
 
 
 
+.proj1{
+    margin-left: 20px;
+    color : rgb(64, 157, 64);
+   
+}
+.proj2{
+    margin-left:50px;
+    color : rgb(64, 157, 64);
+}
 
+.projBtn{
+    margin-left: 30px;
+    margin-top: 1rem;
 
-
-
-
-
-
-
+    display: inline-block;
+    padding:1rem 3.5rem;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: none;
+    color:black;
+    box-shadow: var(--box-shadow);
+}
+.projBtn:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
+.projBtn1{
+    margin-top: 1rem;
+    margin-left: 10px;
+    display: inline-block;
+    padding:1rem 3.5rem;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: none;
+    color:var(--black);
+    box-shadow: var(--box-shadow);
+}
+.projBtn1:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
 
 
 
